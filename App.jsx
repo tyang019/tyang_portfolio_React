@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Intro from './components/Intro';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Navigation/>
       <Intro/>
       <About />
+      <Footer/>
       
       {/* <Routes>
         <Route path="/home" element={<Navigate to="/home" />} />
