@@ -1,30 +1,14 @@
+import tyang from '../assets/LAI_7660.NEF.png'
+
 export default function Intro() {
   return (
     <section className="intro">
-      <h1 className="section__title section__title--intro">Welcome to my portfolio!</h1>
-      <p>Front-end dev</p>
-      <img src="" alt="Picture of Tortrong's Profile" />
-
-      <section className="my-services">
-        <h2 className="section__title">What I do</h2>
-        <div className="services">
-
-          <div className="service">
-            <h3 className="service__title">Web Development</h3>
-            <p className="service__description">I build responsive and user-friendly websites using modern technologies.</p>
-          </div>
-          <div>
-            <h3>Design & Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur?</p>
-          </div>
-
-          <div>
-            <h3>React & Vite</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt laborum deserunt ducimus consectetur, velit eius similique nisi ex quaerat!</p>
-          </div>
-        </div>
-      </section>
-
+      <h1 className="section__title section__title--intro">Hi, I am 
+        <strong>Totrtrong Yang</strong>
+        <p>Nice to meet you!</p>
+      </h1>
+      <p className='section__subtitle--intro'>Front-end Dev</p>
+      <img className='intro__img' src={tyang} alt="Picture of Tortrong's Profile" />
     </section>
   )
 }
