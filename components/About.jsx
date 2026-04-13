@@ -1,3 +1,5 @@
+import aboutMe from "../assets/about-me.jpg";
+
 export default function About() {
   return (
     <section className="about-me" id="about">
@@ -5,9 +7,12 @@ export default function About() {
       <p className="section__subtitle section__subtitle--about">Developer based out of Redding</p>
       <div className="about-me__body">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorum provident consequatur soluta officia consequuntur incidunt, quis ad sapiente accusantium amet inventore molestias neque deserunt. Necessitatibus fuga repellendus praesentium facilis, rerum dolore et accusamus.</p>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate illum doloribus iure! Dolorum, consequuntur sint quod soluta doloremque dolorem cupiditate similique commodi vitae nihil, vel quam cum tenetur aut ex repudiandae officia laudantium.</p>
+        <img className="about-me__img" src={aboutMe} alt="" />
       </div>
-      <img src="" alt="" />
+      <div className="about-me__position">
+       
+      </div>
     </section>
   )
 }
