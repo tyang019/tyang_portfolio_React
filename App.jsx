@@ -6,6 +6,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import Footer from './components/Footer';
 import Services from './components/Services';
+import MyWork from './components/MyWork';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Intro/>
       <Services/>
       <About />
+      <MyWork/>
       <Footer/>
       
       {/* <Routes>

@@ -221,3 +221,19 @@ nav {display: none;}
     position: relative;
   }
 }
+
+/* My Work  */
+.my-work {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+.section__subtitle--work {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
