@@ -12,7 +12,7 @@ export default function MyWork () {
         <Link className="portfolio__item">
           <img className="portfolio__img" src={littleLemon} alt="little lemon homepage" />
         </Link>
-        <Link>
+        <Link className="portfolio__item">
           <img className="portfolio__img" src={mangataGallo} alt="mangata gallo homepage" />
         </Link>
       </div>
