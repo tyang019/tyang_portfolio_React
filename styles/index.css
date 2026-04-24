@@ -193,7 +193,7 @@ nav {display: none;}
 }
 .about-me__body{
   display: flex;
-
+  gap: 2rem;
 }
 @media (min-width: 600px) {
   .about-me {

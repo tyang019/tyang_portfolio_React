@@ -33,13 +33,15 @@ const socials = [
 const Footer = () => {
   return (
     <footer>
-      {socials.map((social, index) => (
-        <li key={index}>
-          <a href={social.url}>
+      <ul className="social-list">
+        {socials.map((social, index) => (
+        <li className="social-list__item" key={index}>
+          <a className="social-list__link" href={social.url}>
             <FontAwesomeIcon icon={social.icon}/>
           </a>
         </li>
       ))}
+      </ul>
     </footer>
   )
 }

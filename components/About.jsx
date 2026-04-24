@@ -6,8 +6,8 @@ export default function About() {
       <h2 className="section__title section__title--about">Who I am</h2>
       <p className="section__subtitle section__subtitle--about">Developer based out of Redding</p>
       <div className="about-me__body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorum provident consequatur soluta officia consequuntur incidunt, quis ad sapiente accusantium amet inventore molestias neque deserunt. Necessitatibus fuga repellendus praesentium facilis, rerum dolore et accusamus.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate illum doloribus iure! Dolorum, consequuntur sint quod soluta doloremque dolorem cupiditate similique commodi vitae nihil, vel quam cum tenetur aut ex repudiandae officia laudantium.</p>
+        <p>I am a frontend-focused developer with a bachelor degree in Computer Science building responsive, user-friendly web applications using React, JavaScript, HTML, and CSS. I focus on writing clean, maintainable code and creating smooth user experiences through component-based design and modern web development practices.</p>
+        <p>I turn ideas and designs into functional applications and continuously improve my skills through hands-on projects. I enjoy learning new technologies, and building projects that are both practical and visually engaging.</p>
         <img className="about-me__img" src={aboutMe} alt="" />
       </div>
       <div className="about-me__position">
