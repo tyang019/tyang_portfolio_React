@@ -6,15 +6,15 @@ export default function Services() {
         <div className="services">
           <div className="service">
             <h3 className="service__title">Web Development</h3>
-            <p className="service__description">I build responsive and user-friendly websites using modern technologies.</p>
+            <p className="service__description">Build responsive, accessible, and user-friendly web applications using modern frontend technologies like React, JavaScript, HTML, and CSS.</p>
           </div>
           <div className="service">
             <h3 className="service__title">Design & Development</h3>
-            <p className="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur?</p>
+            <p className="service__description">Translate UI/UX designs into functional and responsive web interfaces, ensuring consistency, usability, and attention to detail.</p>
           </div>
           <div className="service">
             <h3 className="service__title">React & Vite</h3>
-            <p className="service__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt laborum deserunt ducimus consectetur, velit eius similique nisi ex quaerat!</p>
+            <p className="service__description">Develop dynamic single-page applications using React, leveraging hooks, state management, and reusable components.</p>
           </div>
         </div>
         
