@@ -6,6 +6,7 @@ import {
   faMedium,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons"; 
+import { Link } from "react-router-dom";
 
 const socials = [
   {
@@ -33,6 +34,9 @@ const socials = [
 const Footer = () => {
   return (
     <footer>
+      <Link className="footer__link" href="mailto:hello@example.com">
+        yang.tortrong@yahoo.com
+      </Link>
       <ul className="social-list">
         {socials.map((social, index) => (
         <li className="social-list__item" key={index}>

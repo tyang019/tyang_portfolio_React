@@ -6,7 +6,7 @@ export default function Services() {
         <div className="services">
           <div className="service">
             <h3 className="service__title">Web Development</h3>
-            <p className="service__description">Using modern frontend technologies like React, JavaScript, HTML, and CSS.</p>
+            <p className="service__description">React, JavaScript, HTML, and CSS.</p>
           </div>
           <div className="service">
             <h3 className="service__title">Design & Development</h3>
