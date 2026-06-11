@@ -139,8 +139,8 @@ nav {display: none;}
       grid-row: 2;
       text-align: end;
       position: relative;
-      left: -1.5em;
-      width: calc(100% + 1.5em);
+      left: -1em;
+      width: calc(100% + 2em);
   }
 }
 
@@ -168,7 +168,7 @@ nav {display: none;}
   opacity: 0.25;
 }
 .service {
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
 }
 @media (min-width: 800px) {

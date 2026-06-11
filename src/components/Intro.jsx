@@ -7,7 +7,7 @@ export default function Intro() {
         <strong>Totrtrong Yang</strong>
         <p>Nice to meet you!</p>
       </h1>
-      <strong className='section__subtitle--intro'>Frontend Dev</strong>
+      <strong className='section__subtitle--intro'>Frontend Developer</strong>
       <img className='intro__img' src={tyang} alt="Picture of Tortrong's Profile" />
     </section>
   )
