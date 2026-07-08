@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import littleLemon from "../assets/Homepage.png";
 import mangataGallo from "../assets/mangataHomepage.png"
+import studyFlow from "../assets/studyFlowHomepage.png"
 
 export default function MyWork () {
   return (
@@ -14,6 +15,9 @@ export default function MyWork () {
         </Link>
         <Link className="portfolio__item">
           <img className="portfolio__img" src={mangataGallo} alt="mangata gallo homepage" />
+        </Link>
+        <Link className="portfolio__item">
+          <img className="portfolio__img" src={studyFlow} alt="StudyFlow homepage" />
         </Link>
       </div>
     </section>

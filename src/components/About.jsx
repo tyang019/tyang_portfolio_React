@@ -1,4 +1,4 @@
-import aboutMe from "../assets/about-me.JPG";
+import tyang from '../assets/LAI_7660.NEF.png'
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
       <div className="about-me__body">
         <p>I am a frontend-focused developer with a bachelor degree in Computer Science building responsive, user-friendly web applications using React, JavaScript, HTML, and CSS. I focus on writing clean, maintainable code and creating smooth user experiences through component-based design and modern web development practices.</p>
         <p>I turn ideas and designs into functional applications and continuously improve my skills through hands-on projects. I enjoy learning new technologies, and building projects that are both practical and visually engaging.</p>
-        <img className="about-me__img" src={aboutMe} alt="" />
+        <img className="about-me__img" src={tyang} alt="Picture of Tortrong's Profile" />
       </div>
       <div className="about-me__position">
        
