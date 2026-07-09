@@ -1,4 +1,4 @@
-import tyang from '../assets/LAI_7660.NEF.png'
+import tyang from '../assets/LAI_7660.NEF2 (2).png'
 
 export default function About() {
   return (
